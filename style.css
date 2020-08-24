@@ -1,0 +1,67 @@
+div.flex-container {
+    display: flex;
+    align-items: stretch;
+    border: 2px solid black;
+    width: 70vw;
+    margin: 1rem;
+}
+
+.item {
+    border: 1px solid darkslategray;
+    background-color: rgb(101, 112, 112);
+    box-shadow: .8px 3px;
+    width: 10vw;
+    margin: .5rem .5rem;
+    padding: 1rem .3rem 11rem;
+    text-align: center;
+
+    font-weight: 900;
+}
+
+.flex-start {
+    align-items: flex-start;
+    display: flex;
+    border: 2px solid black;
+    width: 70vw;
+    margin: 1rem;  
+}
+
+.item1 {
+    margin: 1rem .3rem 3rem;
+    padding-top: 1rem;
+}
+
+.item2 {
+    margin: 1rem .3rem 3rem;
+    padding-top: 4rem;
+
+}
+
+.item3 {
+    margin: 1rem .3rem 3rem;
+    padding-top: 2rem;
+}
+div.flex-end {
+    display: flex;
+    align-items: flex-end;
+    border: 2px solid black;
+    width: 70vw;
+    margin: 1rem;
+   
+}
+div.flex-center {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 70vw;
+    margin: 1rem;
+   
+}
+div.flex-baseline {
+    display: flex;
+    align-items: baseline;
+    border: 2px solid black;
+    width: 70vw;
+    margin: 1rem;
+   
+}
