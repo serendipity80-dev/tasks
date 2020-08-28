@@ -1,46 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Flexbox align items</title>
+    <title>Grid_layout</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .gallery{
+            /* border: 2px solid #eee; */
+            background-color: #eee;
+            margin: 2rem 7rem ;
+            display: grid;
+            width: 10vw;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            /* gap: 10px; */
+            
+        }
+        .gallery img{
+             border: 3px solid #eee;
+           /* width: 20vw; */
+            display: grid;
+            max-width: 600px;
+            /* height: 75vh; */
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            /* gap:5px; */
+        }
+        
+    </style>
 </head>
-
 <body>
-    <h1>Flexbox align-items- Aligning Cross Axis Items within a Container</h1>
-    <hr>
-    <hr>
-    <h2>Find the correct alignement</h2>
-    <div class="flex-container">
-        <div class=" item item1">A)</div>
-        <div class="item item2">B)</div>
-        <div class="item item3">C)</div>
-    </div>
-    <div class="flex-start">
-        <div class=" item item1">A)</div>
-        <div class="item item2">B)</div>
-        <div class="item item3">C)</div>
-    </div>
+    <div class="gallery">
+        
+            <img src="https://picsum.photos/id/10/200" alt="">
+       
+        
+            <img src="https://picsum.photos/id/20/200" alt="">
+            
+   
+        
+            <img src="https://picsum.photos/id/1002/200" alt="">
 
-    <div class="flex-end">
-        <div class=" item item1">A)</div>
-        <div class="item item2">B)</div>
-        <div class="item item3">C)</div>
-    </div>
+       
+       
+            <img src="https://picsum.photos/id/1004/200" alt="">
 
-    <div class="flex-center">
-        <div class=" item item1">A)</div>
-        <div class="item item2">B)</div>
-        <div class="item item3">C)</div>
-    </div>
+        
+       
+            <img src="https://picsum.photos/id/1006/200" alt="">
+       
+        
+            <img src="https://picsum.photos/id/1011/200" alt="">
+            
+       
+        
+            <img src="https://picsum.photos/id/1015/200" alt="">
 
-    <div class="flex-baseline">
-        <div class=" item item1">A)</div>
-        <div class="item item2">B)</div>
-        <div class="item item3">C)</div>
+       
+       
+            <img src="https://picsum.photos/id/2/200" alt="">
+
+        
     </div>
 </body>
-
 </html>
